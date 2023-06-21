@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    SlideshowComponent
+    SlideshowComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,
